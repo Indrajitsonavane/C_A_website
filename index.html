@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | FinEdge CA Firm</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<!-- ✏️ Update email, phone, hours -->
+<div class="top-bar">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <small><i class="bi bi-envelope me-1"></i>info@finedge.com &nbsp;|&nbsp; <i class="bi bi-telephone me-1"></i>+91 98765 43210</small>
+      </div>
+      <div class="col-md-6 text-end">
+        <small><i class="bi bi-clock me-1"></i>Mon–Sat: 9:00 AM – 6:00 PM</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="mainNav">
+  <div class="container">
+    <!-- ✏️ Change firm name and tagline -->
+    <a class="navbar-brand" href="index.html">
+      <div class="brand-logo">
+        <i class="bi bi-bar-chart-line-fill"></i>
+        <div>
+          <span class="brand-name">FinEdge</span>
+          <span class="brand-sub">Chartered Accountants</span>
+        </div>
+      </div>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="queries.html">Queries</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions d-flex gap-2 align-items-center">
+        <a href="login.html" class="btn btn-sm btn-outline-primary">Login</a>
+        <a href="register.html" class="btn btn-sm btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 1: HERO BANNER
+     ✏️ CUSTOMIZE ALL TEXT BELOW
+     ═══════════════════════════════════════════════════════════ -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-6">
+        <!-- ✏️ Change badge text -->
+        <span class="hero-badge"><i class="bi bi-award me-1"></i>Trusted CA Firm Since 2005</span>
+
+        <!-- ✏️ Change headline and highlighted span -->
+        <h1 class="hero-title">Your Trusted Partner for <span>Financial Excellence</span></h1>
+
+        <!-- ✏️ Change subtitle -->
+        <p class="hero-subtitle">Expert Chartered Accountants providing comprehensive tax, audit, GST,
+          and financial consulting services. Serving 1200+ clients across India.</p>
+
+        <!-- ✏️ Change button text / links -->
+        <div class="hero-btns">
+          <a href="contact.html" class="btn btn-primary btn-lg px-4">
+            <i class="bi bi-calendar-check me-2"></i>Book Consultation
+          </a>
+          <a href="services.html" class="btn btn-accent btn-lg px-4">
+            <i class="bi bi-grid me-2"></i>Our Services
+          </a>
+        </div>
+
+        <!-- ANIMATED STATS
+             ✏️ Change data-target and label text for each stat -->
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num counter-num" data-target="1200" data-suffix="+">0+</div>
+            <div class="hero-stat-label">Happy Clients</div>
+          </div>
+          <div>
+            <div class="hero-stat-num counter-num" data-target="18" data-suffix="+">0+</div>
+            <div class="hero-stat-label">Years Experience</div>
+          </div>
+          <div>
+            <div class="hero-stat-num counter-num" data-target="98" data-suffix="%">0%</div>
+            <div class="hero-stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Feature Card -->
+      <div class="col-lg-6">
+        <div class="hero-card">
+          <div class="row g-3 mb-3">
+            <!-- ✏️ Change badge text and icons -->
+            <div class="col-6">
+              <div class="hero-card-icon"><i class="bi bi-shield-check"></i></div>
+              <h6 class="mb-1" style="color:var(--primary-dark);font-size:.95rem;">Certified CAs</h6>
+              <small style="color:var(--text-muted)">ICAI Registered Firm</small>
+            </div>
+            <div class="col-6">
+              <div class="hero-card-icon" style="background:rgba(212,160,23,0.1);color:var(--accent)">
+                <i class="bi bi-trophy"></i>
+              </div>
+              <h6 class="mb-1" style="color:var(--primary-dark);font-size:.95rem;">Award Winning</h6>
+              <small style="color:var(--text-muted)">Best CA Firm 2023</small>
+            </div>
+          </div>
+
+          <div style="border-top:1px solid var(--border);padding-top:16px">
+            <p class="mb-2" style="font-weight:600;font-size:.88rem;color:var(--text-dark)">We Handle Everything:</p>
+            <!-- ✏️ Change, add, or remove checklist items -->
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">Income Tax &amp; TDS Filing</span></div>
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">GST Registration &amp; Returns</span></div>
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">Statutory &amp; Internal Audit</span></div>
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">Company Incorporation</span></div>
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">Financial Planning &amp; Advisory</span></div>
+            <div class="hero-feature-item"><i class="bi bi-check-circle-fill"></i><span style="font-size:.88rem;color:var(--text-dark)">Professional CA Courses</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 2: SERVICES
+     ✏️ CUSTOMIZE: Edit each service card (icon, title, description).
+     Add/remove .col-lg-4 blocks as needed.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-line"></div>
+      <!-- ✏️ Change heading and subtitle -->
+      <h2 class="section-title">Our Expert Services</h2>
+      <p class="section-subtitle">Comprehensive financial and taxation services tailored for
+        individuals, startups, and large enterprises.</p>
+    </div>
+    <div class="row g-4">
+
+      <!-- ✏️ SERVICE CARD – repeat this block for each service -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-file-earmark-text"></i></div><!-- ✏️ Icon -->
+          <h5>Income Tax Filing</h5><!-- ✏️ Title -->
+          <p>Accurate and timely income tax return filing for individuals, businesses, and corporates.</p><!-- ✏️ Description -->
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-receipt"></i></div>
+          <h5>GST Compliance</h5>
+          <p>End-to-end GST registration, return filing, and compliance management.</p>
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-search"></i></div>
+          <h5>Audit &amp; Assurance</h5>
+          <p>Statutory, internal, and tax audits conducted with precision and integrity.</p>
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-building"></i></div>
+          <h5>Company Incorporation</h5>
+          <p>Seamless registration of Pvt Ltd, LLP, Partnership, and Sole Proprietorship firms.</p>
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+          <h5>Financial Consulting</h5>
+          <p>Strategic financial planning, investment advice, and business consulting services.</p>
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-shield-lock"></i></div>
+          <h5>TDS &amp; Compliance</h5>
+          <p>TDS deduction, filing, and notices management with zero-penalty guarantee.</p>
+          <a href="services.html" class="mt-3 d-inline-block" style="font-size:.85rem;font-weight:600;color:var(--primary)">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center mt-4">
+      <a href="services.html" class="btn btn-outline-primary px-4">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 3: STATS BAR (Animated counters)
+     ✏️ CUSTOMIZE: Update data-target and label for each stat
+     ═══════════════════════════════════════════════════════════ -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row g-4 text-center">
+
+      <div class="col-md-3 col-6">
+        <div class="stat-box">
+          <div class="stat-number counter-num" data-target="1200" data-suffix="+">0+</div>
+          <div class="stat-label">Clients Served</div><!-- ✏️ -->
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-box">
+          <div class="stat-number counter-num" data-target="18" data-suffix="+">0+</div>
+          <div class="stat-label">Years of Excellence</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-box">
+          <div class="stat-number counter-num" data-target="500" data-suffix="+">0+</div>
+          <div class="stat-label">Tax Cases Filed</div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="stat-box">
+          <div class="stat-number counter-num" data-target="12" data-suffix="+">0+</div>
+          <div class="stat-label">Expert CAs</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 4: COURSES
+     ✏️ CUSTOMIZE: Edit each course card. Add/remove cards.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section-pad" style="background:var(--light-bg)">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-line"></div>
+      <!-- ✏️ Change heading and subtitle -->
+      <h2 class="section-title">Professional CA Courses</h2>
+      <p class="section-subtitle">Industry-relevant courses taught by practicing CAs to launch or advance your finance career.</p>
+    </div>
+    <div class="row g-4">
+
+      <!-- ✏️ COURSE CARD – repeat for each course -->
+      <div class="col-lg-3 col-md-6">
+        <div class="course-card">
+          <div class="course-thumb"><i class="bi bi-mortarboard-fill"></i></div>
+          <div class="course-body">
+            <span class="course-badge">Popular</span><!-- ✏️ Badge text -->
+            <h5>Income Tax Mastery</h5><!-- ✏️ Course title -->
+            <p style="font-size:.83rem;color:var(--text-muted)">Complete guide to ITR filing, tax planning and TDS for professionals...</p><!-- ✏️ Description (keep ~80 chars) -->
+            <div class="course-meta">
+              <span><i class="bi bi-clock me-1"></i>3 Months</span><!-- ✏️ Duration -->
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <div class="course-price">₹8,999</div><!-- ✏️ Price -->
+              <a href="courses.html" class="btn btn-primary btn-sm">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="course-card">
+          <div class="course-thumb"><i class="bi bi-mortarboard-fill"></i></div>
+          <div class="course-body">
+            <span class="course-badge">Popular</span>
+            <h5>GST Practitioner Course</h5>
+            <p style="font-size:.83rem;color:var(--text-muted)">Master GST registration, returns, reconciliation and notices...</p>
+            <div class="course-meta">
+              <span><i class="bi bi-clock me-1"></i>2 Months</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <div class="course-price">₹6,999</div>
+              <a href="courses.html" class="btn btn-primary btn-sm">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="course-card">
+          <div class="course-thumb"><i class="bi bi-mortarboard-fill"></i></div>
+          <div class="course-body">
+            <span class="course-badge">New</span>
+            <h5>Tally &amp; Accounting</h5>
+            <p style="font-size:.83rem;color:var(--text-muted)">Practical accounting using Tally Prime with real business scenarios...</p>
+            <div class="course-meta">
+              <span><i class="bi bi-clock me-1"></i>6 Weeks</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <div class="course-price">₹4,499</div>
+              <a href="courses.html" class="btn btn-primary btn-sm">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="course-card">
+          <div class="course-thumb"><i class="bi bi-mortarboard-fill"></i></div>
+          <div class="course-body">
+            <span class="course-badge">Popular</span>
+            <h5>CA Foundation Prep</h5>
+            <p style="font-size:.83rem;color:var(--text-muted)">Structured coaching for CA Foundation exam with mock tests and notes...</p>
+            <div class="course-meta">
+              <span><i class="bi bi-clock me-1"></i>4 Months</span>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <div class="course-price">₹12,999</div>
+              <a href="courses.html" class="btn btn-primary btn-sm">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center mt-4">
+      <a href="courses.html" class="btn btn-outline-primary px-4">View All Courses</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 5: WHY CHOOSE US + QUICK QUERY FORM
+     ✏️ CUSTOMIZE: Edit feature list and form (hook up action to backend)
+     ═══════════════════════════════════════════════════════════ -->
+<section class="why-section section-pad">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+
+      <!-- LEFT: Why Choose Us -->
+      <div class="col-lg-6">
+        <div class="section-line" style="margin:0 0 16px"></div>
+        <!-- ✏️ Change firm name -->
+        <h2 class="section-title mb-3">Why Choose FinEdge?</h2>
+        <!-- ✏️ Change intro paragraph -->
+        <p style="color:var(--text-muted);margin-bottom:32px">We go beyond numbers to build lasting
+          financial relationships. Our team of 12+ qualified CAs brings expertise, ethics, and
+          empathy to every client engagement.</p>
+
+        <!-- ✏️ CUSTOMIZE: Edit or add why-item blocks -->
+        <div class="why-item">
+          <div class="why-icon"><i class="bi bi-patch-check"></i></div>
+          <div>
+            <h6>ICAI Certified Professionals</h6>
+            <p>All our CAs are registered with ICAI with years of hands-on experience.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="bi bi-lightning-charge"></i></div>
+          <div>
+            <h6>Quick Turnaround</h6>
+            <p>Timely filing and compliance with zero delays.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="bi bi-lock"></i></div>
+          <div>
+            <h6>Confidential &amp; Secure</h6>
+            <p>Your financial data handled with complete confidentiality.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="bi bi-headset"></i></div>
+          <div>
+            <h6>Dedicated Support</h6>
+            <p>Dedicated relationship manager for every client.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon"><i class="bi bi-graph-up-arrow"></i></div>
+          <div>
+            <h6>Proven Track Record</h6>
+            <p>18+ years of success and 98% satisfaction rate.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Quick Query Form -->
+      <!-- ✏️ Set action="" to your backend endpoint when ready -->
+      <div class="col-lg-6">
+        <div class="admin-card p-4">
+          <h5 class="mb-4" style="color:var(--primary-dark)">
+            <i class="bi bi-chat-left-dots me-2 text-primary"></i>Quick Query
+          </h5>
+          <form action="#" method="POST">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <input type="text" name="subject" class="form-control" placeholder="Subject">
+              </div>
+              <div class="col-12">
+                <textarea name="message" class="form-control" rows="4" placeholder="Your message or query..." required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">
+                  Send Query <i class="bi bi-send ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 6: TESTIMONIALS
+     ✏️ CUSTOMIZE: Edit each testimonial card. Add/remove cards.
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section-pad" style="background:var(--light-bg)">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-line"></div>
+      <!-- ✏️ Change heading and subtitle -->
+      <h2 class="section-title">What Our Clients Say</h2>
+      <p class="section-subtitle">Hear from businesses and professionals we've helped grow with confidence.</p>
+    </div>
+    <div class="row g-4">
+
+      <!-- ✏️ TESTIMONIAL CARD – repeat for each testimonial -->
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div><!-- ✏️ Remove stars for lower ratings -->
+          <p class="testimonial-text">"FinEdge handled all our GST and income tax filings flawlessly. Highly professional team!"</p><!-- ✏️ Quote -->
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div><!-- ✏️ First letter of client name -->
+            <div>
+              <div class="testimonial-name">Rahul Deshmukh</div><!-- ✏️ Name -->
+              <div class="testimonial-role">Director, TechNova Pvt Ltd</div><!-- ✏️ Designation -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div>
+          <p class="testimonial-text">"The CA Foundation coaching here is top-notch. I cleared my exam in first attempt thanks to their guidance."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">P</div>
+            <div>
+              <div class="testimonial-name">Pooja Kulkarni</div>
+              <div class="testimonial-role">CA Student</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div>
+          <p class="testimonial-text">"Their audit team is thorough and their turnaround time is exceptional. Truly a trusted firm."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <div class="testimonial-name">Suresh Patil</div>
+              <div class="testimonial-role">CFO, Apex Manufacturing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECTION 7: CALL TO ACTION BANNER
+     ✏️ CUSTOMIZE: Change heading, subtext, and button links
+     ═══════════════════════════════════════════════════════════ -->
+<section style="background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 100%);padding:70px 0">
+  <div class="container text-center">
+    <!-- ✏️ Change heading -->
+    <h2 style="color:var(--white);font-size:2.2rem;margin-bottom:12px">
+      Ready to Secure Your Financial Future?
+    </h2>
+    <!-- ✏️ Change subtitle -->
+    <p style="color:rgba(255,255,255,0.75);max-width:500px;margin:0 auto 28px">
+      Schedule a free consultation with our expert CAs today.
+    </p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <!-- ✏️ Change button text / links -->
+      <a href="contact.html" class="btn btn-accent btn-lg px-4">Get Free Consultation</a>
+      <a href="register.html" class="btn btn-light btn-lg px-4" style="color:var(--primary-dark)">Register Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer mt-auto">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand mb-3"><i class="bi bi-bar-chart-line-fill me-2"></i>FinEdge CA Firm</div>
+          <p class="footer-desc">Trusted Chartered Accountants since 2005. Comprehensive financial and taxation services with integrity and excellence.</p>
+          <div class="social-links mt-3">
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-heading">Our Services</h6>
+          <ul class="footer-links">
+            <li><a href="services.html">Income Tax Filing</a></li>
+            <li><a href="services.html">GST Compliance</a></li>
+            <li><a href="services.html">Audit &amp; Assurance</a></li>
+            <li><a href="services.html">Company Registration</a></li>
+            <li><a href="services.html">Financial Consulting</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-heading">Contact Info</h6>
+          <ul class="footer-contact">
+            <li><i class="bi bi-geo-alt"></i>302, Shanti Plaza, FC Road, Pune - 411004</li>
+            <li><i class="bi bi-telephone"></i>+91 98765 43210</li>
+            <li><i class="bi bi-envelope"></i>info@finedge.com</li>
+            <li><i class="bi bi-clock"></i>Mon–Sat: 9 AM – 6 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6"><small>&copy; 2025 FinEdge CA Firm. All Rights Reserved.</small></div>
+        <div class="col-md-6 text-md-end"><small><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></small></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
